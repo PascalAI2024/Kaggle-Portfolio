@@ -1,6 +1,8 @@
-# Competition Index
+# 04 · Competition Atlas
 
-No individual competition rows are published in the first release because their names, dates, placements, and permission to disclose have not yet been verified from public sources.
+> **A future-facing structure for work that has earned a public retrospective.**
+
+No individual competition rows are published in this first edition: names, dates, placements, and disclosure permissions are not yet verified from public sources. This is intentional. An empty atlas is more credible than a populated fiction.
 
 ## Entry template
 
@@ -13,7 +15,7 @@ No individual competition rows are published in the first release because their 
 | Learning | One concise reusable lesson. |
 | Boundary | What remains private, time-sensitive, or rule-bound. |
 
-## Publication state
+## Publication state · edition 01
 
 | Competition | Status | Public evidence | Notes |
 | --- | --- | --- | --- |
@@ -34,6 +36,16 @@ sequenceDiagram
     P-->>K: Link readers back to public proof
 ```
 
+## What a strong retrospective feels like
+
+| Show the reader | Keep private or rule-bound |
+| :-- | :-- |
+| The problem, metric, constraints, and public source. | Credentials, private data, live strategy, or prohibited material. |
+| A concise baseline-to-learning narrative. | Active submission tactics, ensemble details, or unreleased model internals. |
+| The public result when it can be checked. | Any rank, score, or placement that is merely remembered. |
+
+The finished page should give a collaborator a useful technical signal in two minutes—and a route to inspect the evidence in ten.
+
 ---
 
-← [README](../README.md) · [Evidence ledger](EVIDENCE_LEDGER.md) · [Public boundaries](../PUBLIC_BOUNDARIES.md)
+← [Experiment map](EXPERIMENT_LEARNING_MAP.md) · [Evidence ledger](EVIDENCE_LEDGER.md) · [Public boundaries](../PUBLIC_BOUNDARIES.md) · [README](../README.md) →

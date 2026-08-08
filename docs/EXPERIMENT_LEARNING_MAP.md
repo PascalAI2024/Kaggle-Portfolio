@@ -1,4 +1,8 @@
-# Experiment Learning Map
+# 03 · Experiment Learning Map
+
+> **The work is a sequence of questions, not a pile of model runs.**
+
+This map describes the public-safe reasoning shape behind experimentation. It is intentionally domain-flexible: tabular, vision, audio, ARC-style reasoning, and infrastructure each need different techniques; they all need an honest validation loop.
 
 ## What an honest experiment contains
 
@@ -17,7 +21,7 @@ flowchart TD
     K --> P[Public-safe retrospective]
 ```
 
-## Practice map
+## Research stations
 
 | Area | Reusable habit | Portfolio-friendly proof |
 | --- | --- | --- |
@@ -31,6 +35,18 @@ flowchart TD
 
 When cross-validation and leaderboard outcomes disagree, the response is not to try more models blindly. The response is to inspect split design, leakage risk, data shift, and variance. That is a stronger story than a convenient metric.
 
+## The test-honesty checklist
+
+| Before trusting an apparent win | The adversarial question |
+| :-- | :-- |
+| Split design | Does the validation split reflect the real evaluation regime? |
+| Leakage | Could any feature, preprocessing step, or grouping rule reveal the answer? |
+| Variance | Is this result robust across folds, seeds, or a reasonable perturbation? |
+| Metric alignment | Does local evaluation match the official objective and decision threshold? |
+| Public claim | Is this result permitted and independently sourceable? |
+
+The portfolio preserves the question and the lesson even when the raw artifacts must remain private.
+
 ---
 
-← [Journey](JOURNEY.md) · [Competition index](COMPETITION_INDEX.md) · [README](../README.md)
+← [Journey](JOURNEY.md) · [Competition atlas](COMPETITION_INDEX.md) · [Evidence ledger](EVIDENCE_LEDGER.md) · [README](../README.md) →

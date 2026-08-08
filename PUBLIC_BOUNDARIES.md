@@ -1,6 +1,6 @@
-# Public Boundaries
+# Public Boundary / Editorial Safety
 
-This repository is a public portfolio, not a competition workspace.
+> This repository is a public portfolio, not a competition workspace. The goal is to expose judgement and proof, not the sauce.
 
 ## Safe to publish
 
@@ -20,6 +20,15 @@ This repository is a public portfolio, not a competition workspace.
 
 Before every update: check source, date, permission, and whether the detail would give away proprietary or competition-sensitive work. When in doubt, show the method and learning—not the artifact.
 
+```mermaid
+flowchart LR
+    A[Potential public detail] --> B{Source + date?}
+    B -->|no| X[Keep out]
+    B -->|yes| C{Permitted + safe?}
+    C -->|no| X
+    C -->|yes| D[Publish the learning<br/>with its receipt]
+```
+
 ---
 
-← [README](README.md) · [Evidence ledger](docs/EVIDENCE_LEDGER.md)
+← [README](README.md) · [Evidence ledger](docs/EVIDENCE_LEDGER.md) · [Competition atlas](docs/COMPETITION_INDEX.md) →

@@ -1,6 +1,8 @@
-# Journey: From Runs to a Repeatable Practice
+# 02 · Research Journey
 
-The first public release records the engineering trajectory, while leaving unverified competition outcomes out of the narrative.
+> **From runs to a repeatable practice.** This is the operational history behind the portfolio—not a substitute for verified competition results.
+
+The first public edition records the engineering trajectory while leaving unverified outcomes deliberately outside the narrative. It shows how work becomes easier to trust: a safer run surface, a credible baseline, and a learning loop that survives disagreement.
 
 ```mermaid
 timeline
@@ -27,6 +29,20 @@ timeline
 
 Growth is more than a leaderboard position. The durable asset is a practice that can reproduce a credible baseline, learn from disagreement, and carry the lesson into the next problem.
 
+## A research practice compounds
+
+```mermaid
+flowchart LR
+    A[One careful run] --> B[Reusable check]
+    B --> C[Repeatable baseline]
+    C --> D[Higher-quality hypothesis]
+    D --> E[Clearer retrospective]
+    E --> F[Next problem starts ahead]
+    F -. disciplined iteration .-> A
+```
+
+The point is not to make every experiment look successful. It is to make the next experiment better informed.
+
 ---
 
-← [README](../README.md) · [Experiment learning map](EXPERIMENT_LEARNING_MAP.md) · [Evidence ledger](EVIDENCE_LEDGER.md)
+← [README](../README.md) · [Experiment map](EXPERIMENT_LEARNING_MAP.md) · [Evidence ledger](EVIDENCE_LEDGER.md) · [Competition atlas](COMPETITION_INDEX.md) →

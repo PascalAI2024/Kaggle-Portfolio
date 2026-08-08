@@ -1,8 +1,10 @@
-# Evidence Ledger
+# 01 · Evidence Ledger
 
 Last reviewed: 2026-08-08
 
-This ledger is the source of truth for public claims in the repository.
+> **Every strong public claim has a source, date, and permission boundary.**
+
+This ledger is the source of truth for public claims in the repository. It is deliberately visible: readers can see the difference between what is known, what awaits capture, and what should never be published.
 
 | Claim area | Current status | Evidence | Publication rule |
 | --- | --- | --- | --- |
@@ -28,6 +30,20 @@ Everything else is a research lead, not a portfolio fact.
 3. Update the README chart and relevant competition page.
 4. Check all links and re-read [the public boundary](../PUBLIC_BOUNDARIES.md).
 
+## Claim lifecycle
+
+```mermaid
+stateDiagram-v2
+    [*] --> Lead: remembered or discovered
+    Lead --> Captured: public source + date
+    Captured --> Reviewed: permission + accuracy check
+    Reviewed --> Published: source-linked claim
+    Reviewed --> Withheld: private, active, or rule-bound
+    Published --> Superseded: source changes
+```
+
+No source, no claim. No exception merely because the story would look better with one.
+
 ---
 
-← [README](../README.md) · [Journey](JOURNEY.md) · [Competition index](COMPETITION_INDEX.md)
+← [README](../README.md) · [Journey](JOURNEY.md) · [Competition atlas](COMPETITION_INDEX.md) · [Public boundaries](../PUBLIC_BOUNDARIES.md) →
