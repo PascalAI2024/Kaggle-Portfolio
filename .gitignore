@@ -1,0 +1,9 @@
+.DS_Store
+.env
+.env.*
+!\.env.example
+*.pem
+*.key
+kaggle.json
+__pycache__/
+*.ipynb_checkpoints
